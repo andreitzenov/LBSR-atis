@@ -2,7 +2,7 @@
   "name": "Bulgaria",
   "id": "f2779102-cdce-40cc-8c46-45d3f1408e0e",
   "updateUrl": "https://raw.githubusercontent.com/andreitzenov/LBSR-atis/refs/heads/main/vATIS%20Profile%20-%20Bulgaria.json",
-  "updateSerial": 2025092201,
+  "updateSerial": 2025092301,
   "composites": [
     {
       "id": "5349f49e-4119-4d32-a2e0-85540598c5c1",
@@ -329,7 +329,7 @@
           "id": "459845fa-1b70-4fa5-8121-4a33a4411966",
           "name": "RUNWAY 27",
           "airportConditions": "RNP APPR, RWY IN USE 27, TRANSITION LEVEL ONE TWO ZERO",
-          "notams": "TWY D IS CLSD",
+          "notams": "",
           "template": "THIS IS VARNA INFORMATION [ATIS_CODE]. ATIS REPORT AT [OBS_TIME]. [ARPT_COND]. [NOTAMS]. WIND RWY 27 TOUCHDOWN ZONE [FULL_WX_STRING]. ADVISE YOU HAVE RECEIVED INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
@@ -339,7 +339,7 @@
           "id": "45fb0e4f-20cb-46c3-a2bb-f6154a42db77",
           "name": "RUNWAY 09",
           "airportConditions": "ILS Z APPR, RWY IN USE 09, TRANSITION LEVEL ONE TWO ZERO",
-          "notams": "TWY D IS CLSD",
+          "notams": "",
           "template": "THIS IS VARNA INFORMATION [ATIS_CODE]. ATIS REPORT AT [OBS_TIME]. [ARPT_COND]. [NOTAMS]. WIND RWY 09 TOUCHDOWN ZONE [FULL_WX_STRING]. ADVISE YOU HAVE RECEIVED INFORMATION [ATIS_CODE].",
           "externalGenerator": {
             "enabled": false
