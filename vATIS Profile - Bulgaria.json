@@ -2,7 +2,7 @@
   "name": "Bulgaria",
   "id": "f2779102-cdce-40cc-8c46-45d3f1408e0e",
   "updateUrl": "https://raw.githubusercontent.com/andreitzenov/LBSR-atis/refs/heads/main/vATIS%20Profile%20-%20Bulgaria.json",
-  "updateSerial": 2025082904,
+  "updateSerial": 2025092201,
   "composites": [
     {
       "id": "5349f49e-4119-4d32-a2e0-85540598c5c1",
@@ -22,7 +22,7 @@
       "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "airportConditionsBeforeFreeText": false,
-      "notamsBeforeFreeText": false,
+      "notamsBeforeFreeText": true,
       "presets": [
         {
           "id": "58dbff60-8fca-430d-9eb8-355623b60c2d",
@@ -46,8 +46,50 @@
         }
       ],
       "contractions": [],
-      "airportConditionDefinitions": [],
-      "notamDefinitions": [],
+      "airportConditionDefinitions": [
+        {
+          "text": "RCR: 0000Z RWYCC 5/5/5",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "TDZ: 100% WET. MID: 100% WET. END: 100% WET",
+          "ordinal": 2,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "text": "FOR CLEARANCE DELIVERY CONTACT 120.2",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "TWY R CLSD DUE TO OPR REASONS",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "FLOCK OF BIRDS IN THE VC OF THE RWY, ALT UNKNOWN",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "MOD ICING AT/ABOVE 0000FT",
+          "ordinal": 4,
+          "enabled": false
+        },
+        {
+          "text": "MOD TURB AT/ABOVE 0000FT",
+          "ordinal": 5,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION! LASER ACTIVITY IN THE VC OF THE ARFLD",
+          "ordinal": 6,
+          "enabled": false
+        }
+      ],
       "atisFormat": {
         "observationTime": {
           "template": {
@@ -281,7 +323,7 @@
       "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "airportConditionsBeforeFreeText": false,
-      "notamsBeforeFreeText": false,
+      "notamsBeforeFreeText": true,
       "presets": [
         {
           "id": "459845fa-1b70-4fa5-8121-4a33a4411966",
@@ -318,8 +360,45 @@
           "spoken": "DELTA"
         }
       ],
-      "airportConditionDefinitions": [],
-      "notamDefinitions": [],
+      "airportConditionDefinitions": [
+        {
+          "text": "RCR: 0000Z RWYCC 5/5/5",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "TDZ: 100% WET. MID: 100% WET. END: 100% WET",
+          "ordinal": 2,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "text": "TWY D IS CLSD",
+          "ordinal": 1,
+          "enabled": true
+        },
+        {
+          "text": "FLOCK OF BIRDS IN THE VC OF THE RWY, ALT UNKNOWN",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "MOD ICING AT/ABOVE 0000FT",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "MOD TURB AT/ABOVE 0000FT",
+          "ordinal": 4,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION! LASER ACTIVITY IN THE VC OF THE ARFLD",
+          "ordinal": 5,
+          "enabled": false
+        }
+      ],
       "atisFormat": {
         "observationTime": {
           "template": {
@@ -553,7 +632,7 @@
       "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "airportConditionsBeforeFreeText": false,
-      "notamsBeforeFreeText": false,
+      "notamsBeforeFreeText": true,
       "presets": [
         {
           "id": "1c879da6-4c0a-4b65-a0e1-0a2b785c2495",
@@ -582,8 +661,40 @@
           "spoken": "CHARLIE"
         }
       ],
-      "airportConditionDefinitions": [],
-      "notamDefinitions": [],
+      "airportConditionDefinitions": [
+        {
+          "text": "RCR: 0000Z RWYCC 5/5/5",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "TDZ: 100% WET. MID: 100% WET. END: 100% WET",
+          "ordinal": 2,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "text": "FLOCK OF BIRDS IN THE VC OF THE RWY, ALT UNKNOWN",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "MOD ICING AT/ABOVE 0000FT",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "MOD TURB AT/ABOVE 0000FT",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION! LASER ACTIVITY IN THE VC OF THE ARFLD",
+          "ordinal": 4,
+          "enabled": false
+        }
+      ],
       "atisFormat": {
         "observationTime": {
           "template": {
@@ -817,7 +928,7 @@
       "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "airportConditionsBeforeFreeText": false,
-      "notamsBeforeFreeText": false,
+      "notamsBeforeFreeText": true,
       "presets": [
         {
           "id": "c2d9eca3-70f5-4935-8dff-f8f936507087",
@@ -839,8 +950,45 @@
         }
       ],
       "contractions": [],
-      "airportConditionDefinitions": [],
-      "notamDefinitions": [],
+      "airportConditionDefinitions": [
+        {
+          "text": "RCR: 0000Z RWYCC 5/5/5",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "TDZ: 100% WET. MID: 100% WET. END: 100% WET",
+          "ordinal": 2,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "text": "DME PDV OUT OF USE",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "FLOCK OF BIRDS IN THE VC OF THE RWY, ALT UNKNOWN",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "MOD ICING AT/ABOVE 0000FT",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "MOD TURB AT/ABOVE 0000FT",
+          "ordinal": 4,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION! LASER ACTIVITY IN THE VC OF THE ARFLD",
+          "ordinal": 5,
+          "enabled": false
+        }
+      ],
       "atisFormat": {
         "observationTime": {
           "template": {
@@ -1074,7 +1222,7 @@
       "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "airportConditionsBeforeFreeText": false,
-      "notamsBeforeFreeText": false,
+      "notamsBeforeFreeText": true,
       "presets": [
         {
           "id": "77a6782d-809e-446d-b056-d69c28c484f0",
@@ -1096,8 +1244,45 @@
         }
       ],
       "contractions": [],
-      "airportConditionDefinitions": [],
-      "notamDefinitions": [],
+      "airportConditionDefinitions": [
+        {
+          "text": "RCR: 0000Z RWYCC 5/5/5",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "TDZ: 100% WET. MID: 100% WET. END: 100% WET",
+          "ordinal": 2,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "text": "THE AIRPORT IS NOT OPERATING UNTIL 05 UTC",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "FLOCK OF BIRDS IN THE VC OF THE RWY, ALT UNKNOWN",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "MOD ICING AT/ABOVE 0000FT",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "MOD TURB AT/ABOVE 0000FT",
+          "ordinal": 4,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION! LASER ACTIVITY IN THE VC OF THE ARFLD",
+          "ordinal": 5,
+          "enabled": false
+        }
+      ],
       "atisFormat": {
         "observationTime": {
           "template": {
