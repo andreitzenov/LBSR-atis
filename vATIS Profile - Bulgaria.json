@@ -2,7 +2,7 @@
   "name": "Bulgaria",
   "id": "f2779102-cdce-40cc-8c46-45d3f1408e0e",
   "updateUrl": "https://raw.githubusercontent.com/andreitzenov/LBSR-atis/refs/heads/main/vATIS%20Profile%20-%20Bulgaria.json",
-  "updateSerial": 2025112701,
+  "updateSerial": 2025112901,
   "composites": [
     {
       "id": "5349f49e-4119-4d32-a2e0-85540598c5c1",
@@ -1015,19 +1015,29 @@
           "ordinal": 2,
           "enabled": false
         },
-        {
-          "text": "MOD ICING AT/ABOVE 0000FT",
+		{
+          "text": "ILS W OR LOC W RWY 30 NOT AVAILABLE",
           "ordinal": 3,
           "enabled": false
         },
-        {
-          "text": "MOD TURB AT/ABOVE 0000FT",
+		{
+          "text": "VOR APP RWYS 12 AND 30 NOT AVAILABLE",
           "ordinal": 4,
           "enabled": false
         },
         {
-          "text": "CAUTION! LASER ACTIVITY IN THE VC OF THE ARFLD",
+          "text": "MOD ICING AT/ABOVE 0000FT",
           "ordinal": 5,
+          "enabled": false
+        },
+        {
+          "text": "MOD TURB AT/ABOVE 0000FT",
+          "ordinal": 6,
+          "enabled": false
+        },
+        {
+          "text": "CAUTION! LASER ACTIVITY IN THE VC OF THE ARFLD",
+          "ordinal": 7,
           "enabled": false
         }
       ],
@@ -1311,7 +1321,7 @@
       ],
       "notamDefinitions": [
         {
-          "text": "THE AIRPORT IS NOT OPERATING UNTIL 05 UTC",
+          "text": "THE AIRPORT IS NOT OPERATING UNTIL 06 UTC",
           "ordinal": 1,
           "enabled": false
         },
